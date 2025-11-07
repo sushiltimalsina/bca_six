@@ -41,6 +41,7 @@ public class MyAdapter extends AppCompatActivity {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
+                System.out.println("Hello World Test Git Hub");
 
             }
         });
