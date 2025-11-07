@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Sixth BCA</string>
+    <string name="enter_email">Enter the Email Address Nigga</string>
+    <string name="txt_welcome">Welcome Back</string>
+    <string name="txt_missed">You have been missed</string>
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>MOnday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thrusday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string name="txt_email">Email:-</string>
+    <string name="txt_enteremail">Enter your Email</string>
+    <string name="txt_password">Password:-</string>
+    <string name="txt_enterpass">Enter your Password</string>
+    <string name="txt_forgetpass">Forget password?</string>
+    <string name="txt_login">Log In</string>
+</resources>

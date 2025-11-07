@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableTestActivity">
+    <!--    <TableRow>-->
+    <!--        <TextView -->
+    <!--            android:layout_weight="1"-->
+    <!--            android:padding="5dp"-->
+    <!--            android:text="S.No"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:padding="5dp"-->
+    <!--            android:text="Full Name"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:padding="5dp"-->
+    <!--            android:text="Address"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:padding="5dp"-->
+    <!--            android:text="Phone"/>-->
+    <!--    </TableRow>-->
+    <!--    -->
+    <!--    <TableRow>-->
+    <!--        -->
+    <!--    </TableRow>-->
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="Welcome Back"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="You've been missed"
+            android:textAlignment="center"
+            android:textColor="@color/newblue"
+            android:textSize="18dp"
+
+            />
+
+    </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="Email"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:padding="5dp"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:hint="Email Address Please"
+                
+                />
+        </TableRow>
+</TableLayout>
