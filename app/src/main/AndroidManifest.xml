@@ -12,7 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SixthBCA">
         <activity
-            android:name=".MyAdapter"
+            android:name=".DemoRecycleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MeroCustomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyCustomizedActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,21 +26,37 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<!--        <activity-->
-<!--            android:name=".custom_dialog"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".my_dialog"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".context_menu"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+        <activity
+            android:name=".mylist"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyAdapter"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- <activity -->
+        <!-- android:name=".custom_dialog" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".my_dialog" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".context_menu" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
         <activity
             android:name=".DashboardActivity"
             android:exported="true">
@@ -43,10 +65,9 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-<!--        <activity-->
-<!--            android:name=".newloginpage.LoginPage"-->
-<!--            android:exported="false" />-->
+        </activity> <!-- <activity -->
+        <!-- android:name=".newloginpage.LoginPage" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".cameratest.AddUserActivity"
             android:exported="false" />
