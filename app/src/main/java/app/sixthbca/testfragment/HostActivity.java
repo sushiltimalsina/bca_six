@@ -1,4 +1,4 @@
-package testfragment;
+package app.sixthbca.testfragment;
 
 import android.os.Bundle;
 

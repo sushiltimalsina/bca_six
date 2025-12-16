@@ -1,13 +1,15 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="testfragment.BlankFragment">
+    tools:context=".testfragment.BlankFragment"
+    android:background="@color/newblue">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:textColor="@color/design_default_color_secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am fragment one" />
 
-</FrameLayout>
+</LinearLayout>
