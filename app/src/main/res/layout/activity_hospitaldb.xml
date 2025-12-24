@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="db.UiActivity"
+    android:layout_margin="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospial Database"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor Name:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:id="@+id/d_name"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Enter Doctor's Name Here" />
+
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Specilization:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:id="@+id/d_specilaization"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Enter Doctor's Specilaization Here" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:layout_marginBottom="30dp"
+        android:id="@+id/d_experience"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Enter Doctor's Experience Here" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+
+            android:id="@+id/btd_add"
+            android:backgroundTint="#FF801F"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/btd_dispaly"
+            android:backgroundTint="@android:color/black"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Display"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>
