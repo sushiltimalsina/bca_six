@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
+<uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,8 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SixthBCA">
         <activity
+            android:name=".apidemo.ApiDemoActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".db.hospitaldb"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,21 +32,21 @@
         <activity
             android:name=".db.UiActivity"
             android:exported="true">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-        </activity>
-<!--        <activity-->
-<!--            android:name=".databaseActivity"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-<!--        </activity> &lt;!&ndash; <activity &ndash;&gt;-->
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity> <!-- <activity -->
+        <!-- android:name=".databaseActivity" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> &lt;!&ndash; <activity &ndash;&gt; -->
         <!-- android:name=".testfragment.MyShopActivity" -->
         <!-- android:exported="true"> -->
         <!-- <intent-filter> -->
@@ -47,8 +56,7 @@
         <!-- </activity> -->
         <activity
             android:name=".testfragment.HostActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".DemoRecycleActivity"
             android:exported="false" />
@@ -57,10 +65,10 @@
             android:exported="false" />
         <activity
             android:name=".MyCustomizedActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".mylist"
-            android:exported="true"></activity> <!-- <activity -->
+            android:exported="true" /> <!-- <activity -->
         <!-- android:name=".MyAdapter" -->
         <!-- android:exported="true"> -->
         <!-- <intent-filter> -->
@@ -83,8 +91,7 @@
         <!-- </activity> -->
         <activity
             android:name=".DashboardActivity"
-            android:exported="true">
-        </activity> <!-- <activity -->
+            android:exported="true"></activity> <!-- <activity -->
         <!-- android:name=".newloginpage.LoginPage" -->
         <!-- android:exported="false" /> -->
         <activity
