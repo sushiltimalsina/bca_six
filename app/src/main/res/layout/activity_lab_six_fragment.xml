@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".labreport.LabSix.LabSixFragmentActivity">
+
+    <TextView
+        android:paddingTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Static Fragment (XML)"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Static Fragment added via XML -->
+    <fragment
+        android:id="@+id/staticFragment"
+        android:name="app.sixthbca.labreport.LabSix.StaticFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_static" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#CCCCCC"
+        android:layout_marginVertical="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Dynamic Fragment (Java/Kotlin)"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Container for the Dynamic Fragment -->
+    <FrameLayout
+        android:id="@+id/dynamicFragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
