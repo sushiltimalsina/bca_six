@@ -21,4 +21,7 @@
     <string name="txt_login">Log In</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calculator_error_enter_numbers">Please enter numbers</string>
+    <string name="calculator_error_divide_by_zero">Cannot divide by zero</string>
+    <string name="calculator_result">Result: %1$f</string>
 </resources>
