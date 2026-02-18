@@ -1,42 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
 
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:id="@+id/myImg"
-            tools:src="@drawable/photo"
-            android:scaleType="centerCrop"
+    <ImageView
+        android:id="@+id/myImg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/photo" />
 
-            />
-    <LinearLayout
+    <TextView
+        android:id="@+id/mytitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/mytitle"
-            tools:text="Sushil"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:id="@+id/mytitle1"
-        tools:text="HTT"/>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp"
+        tools:text="Item Name" />
 
-            <ImageView
-                android:layout_height="20dp"
-
-
-                />
-    </LinearLayout>
 </LinearLayout>
-    </LinearLayout>
