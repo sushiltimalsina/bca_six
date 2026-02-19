@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Name" />
+    <EditText android:id="@+id/etRoll" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Roll No" android:inputType="number" />
+    <EditText android:id="@+id/etResult" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Result (e.g. Pass/Fail)" />
+    <EditText android:id="@+id/etGrade" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Grade (e.g. A)" />
+
+    <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save" android:layout_marginTop="10dp" />
+</LinearLayout>
